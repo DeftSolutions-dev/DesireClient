@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 470729623,
+    "shortname": "small.oil.refinery",
+    "displayName": {
+        "token": "small.oil.refinery",
+        "english": "Small Oil Refinery"
+    },
+    "displayDescription": {
+        "token": "small.oil.refinery.desc",
+        "english": "A small refinery which can produce Low Grade Fuel from Crude Oil."
+    },
+    "iconSprite": {
+        "instanceID": 74158
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "11e073a94fe78914697d058d01f06f24"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 500.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327270
+            },
+            "amount": 250.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 19,
+    "UnlockPrice": 14
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

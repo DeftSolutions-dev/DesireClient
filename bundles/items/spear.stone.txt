@@ -1,0 +1,123 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -2118132208,
+    "shortname": "spear.stone",
+    "displayName": {
+        "token": "spear.stone",
+        "english": "Stone Spear"
+    },
+    "displayDescription": {
+        "token": "spear.stone.desc",
+        "english": "A stone-tipped wooden Spear."
+    },
+    "iconSprite": {
+        "instanceID": 57918
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 18458
+    },
+    "inventoryGrabSound": {
+        "instanceID": 18458
+    },
+    "inventoryDropSound": {
+        "instanceID": 81240
+    },
+    "condition": {
+        "enabled": true,
+        "max": 80.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "9aff2c32bb7774f1ba38e74e744aba32"
+    },
+    "physImpactMed": {
+        "guid": "03eb7e2dda71247d99aba04b74a9fe6b"
+    },
+    "physImpactHard": {
+        "guid": "b2e80e752278b4470b3c4ec92b0cec86"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "7f3faec3258db2b4d9f9010632ded783"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "c8674ca3630acad41b6060688a9af903"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 327116
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 128014
+            },
+            "amount": 100.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 5.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 45.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 4,
+    "UnlockPrice": 5
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "506e225440b88e744ab7467a298baf7a"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 30.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

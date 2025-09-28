@@ -1,0 +1,101 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1616524891,
+    "shortname": "stocking.small",
+    "displayName": {
+        "token": "stocking.small.name",
+        "english": "Small Stocking"
+    },
+    "displayDescription": {
+        "token": "stocking.large.desc",
+        "english": "A small stocking. Hang it by a fire and you might just get a gift! Collect 6 to upgrade to a SUPER Stocking"
+    },
+    "iconSprite": {
+        "instanceID": 87506
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 5,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 40488
+    },
+    "inventoryGrabSound": {
+        "instanceID": 40488
+    },
+    "inventoryDropSound": {
+        "instanceID": 25922
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "85e37a5e3715c2f4d9c44c0aaafcfc89"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "63f43fa3a39c5334ba3435d1e7f90579"
+    },
+    "showCrosshair": false
+}
+
+ItemModUpgrade
+{
+    "numForUpgrade": 6,
+    "upgradeSuccessChance": 1.0,
+    "numToLoseOnFail": 10,
+    "upgradedItem": {
+        "instanceID": 479426
+    },
+    "numUpgradedItem": 1,
+    "successEffect": {
+        "guid": "c8ab9d20647b7c744b8f6c2c23a19dd1"
+    },
+    "failEffect": {
+        "guid": ""
+    }
+}
+

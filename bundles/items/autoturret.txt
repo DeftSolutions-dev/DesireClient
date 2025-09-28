@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 563023711,
+    "shortname": "autoturret",
+    "displayName": {
+        "token": "autoturret",
+        "english": "Auto Turret"
+    },
+    "displayDescription": {
+        "token": "autoturret.desc",
+        "english": "This automated sentry turret will engage and neutralize any moving targets it has line of sight to. You must load it with standard 5.56 ammunition. Note : The turret will search for targets in a 180 degree arc facing *you* when you place it."
+    },
+    "iconSprite": {
+        "instanceID": 92000
+    },
+    "category": 9,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "ea8241fe731d73e468260ba39d206036"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 341258
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327660
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 75.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 4,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 18,
+    "UnlockPrice": 17
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

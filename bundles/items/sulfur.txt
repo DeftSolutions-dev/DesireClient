@@ -1,0 +1,74 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -891243783,
+    "shortname": "sulfur",
+    "displayName": {
+        "token": "sulfur",
+        "english": "Sulfur"
+    },
+    "displayDescription": {
+        "token": "sulfur.desc",
+        "english": "Sulfur is commonly used in gunpowder, medicine, and matches. Matches release sulfur dioxide when they burn, giving them their smell. Sulfur is an essential component to living cells. Many proteins contain sulfur. It is also used as a pesticide on organic farms."
+    },
+    "iconSprite": {
+        "instanceID": 108828
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModXPWhenUsed
+{
+    "xpPerUnit": 1.0,
+    "unitSize": 1000
+}
+

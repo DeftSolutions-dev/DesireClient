@@ -1,0 +1,68 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -365801095,
+    "shortname": "bone.fragments",
+    "displayName": {
+        "token": "bone.fragments",
+        "english": "Bone Fragments"
+    },
+    "displayDescription": {
+        "token": "bone.fragments.desc",
+        "english": "Extracted from animal carcass.  Used as a raw material to make a bone blade, a bone awl, bone meal, or used to make glue."
+    },
+    "iconSprite": {
+        "instanceID": 38570
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 31098
+    },
+    "inventoryGrabSound": {
+        "instanceID": 31098
+    },
+    "inventoryDropSound": {
+        "instanceID": 19734
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+

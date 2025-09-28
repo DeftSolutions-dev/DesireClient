@@ -1,0 +1,84 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 640562379,
+    "shortname": "pookie.bear",
+    "displayName": {
+        "token": "pookie.bear.name",
+        "english": "Pookie Bear"
+    },
+    "displayDescription": {
+        "token": "pookie.bear.desc",
+        "english": "A companion that reminds you of your youth"
+    },
+    "iconSprite": {
+        "instanceID": 64800
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 40488
+    },
+    "inventoryGrabSound": {
+        "instanceID": 40488
+    },
+    "inventoryDropSound": {
+        "instanceID": 25922
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "cddfefc7d87c6ee42941cee86f91435d"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "cba268d4e61ff5a4c9f7a4fb8130ae94"
+    },
+    "showCrosshair": false
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "f29f03ec30da6c240bd9a7a42567d1b9"
+    },
+    "defaultBone": ""
+}
+

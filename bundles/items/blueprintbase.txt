@@ -1,0 +1,75 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1887162396,
+    "shortname": "blueprintbase",
+    "displayName": {
+        "token": "blueprintbase.name",
+        "english": "Blueprint"
+    },
+    "displayDescription": {
+        "token": "blueprintbase.desc",
+        "english": "Blueprint"
+    },
+    "iconSprite": {
+        "instanceID": 72482
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 117212
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117212
+    },
+    "inventoryDropSound": {
+        "instanceID": 71728
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": true,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModBlueprintCraft
+{
+    "successEffect": {
+        "guid": "539319a8d17c45c4785974c84480b79b"
+    }
+}
+

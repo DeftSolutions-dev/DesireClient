@@ -1,0 +1,108 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1079752220,
+    "shortname": "hazmat.helmet",
+    "displayName": {
+        "token": "hazmat.helmet",
+        "english": "Hazmat Helmet"
+    },
+    "displayDescription": {
+        "token": "hazmat.helmet.desc",
+        "english": "A Helmet."
+    },
+    "iconSprite": {
+        "instanceID": 109976
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "38b98dcc860ae3045b65b43bf5177d09"
+    },
+    "protectionProperties": {
+        "instanceID": 78340
+    },
+    "armorProperties": {
+        "instanceID": 69726
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 22,
+    "UnlockPrice": 16
+}
+

@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -378017204,
+    "shortname": "wall.frame.fence",
+    "displayName": {
+        "token": "wall.frame.fence",
+        "english": "Chainlink Fence"
+    },
+    "displayDescription": {
+        "token": "wall.frame.fence.desc",
+        "english": "A Chainlink Fence"
+    },
+    "iconSprite": {
+        "instanceID": 32130
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 75180
+    },
+    "inventoryGrabSound": {
+        "instanceID": 45724
+    },
+    "inventoryDropSound": {
+        "instanceID": 50550
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "6a31018933e966042b5b4bbffedc8a48"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 200.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 11,
+    "UnlockPrice": 5
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

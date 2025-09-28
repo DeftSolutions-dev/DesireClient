@@ -1,0 +1,126 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 2123300234,
+    "shortname": "crossbow",
+    "displayName": {
+        "token": "crossbow",
+        "english": "Crossbow"
+    },
+    "displayDescription": {
+        "token": "crossbow.desc",
+        "english": "A very accurate ranged weapon."
+    },
+    "iconSprite": {
+        "instanceID": 13376
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.20000000298023225,
+            "fractionMax": 0.5
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "6a57c695ac5678149a7fc5f319f47aa1"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "9750352db754a6044bbd7b0e206d24e1"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 350.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 75.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 25.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 10,
+    "UnlockPrice": 8
+}
+
+ItemModContainer
+{
+    "capacity": 2,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        8
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

@@ -1,0 +1,135 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 805088543,
+    "shortname": "ammo.rifle.explosive",
+    "displayName": {
+        "token": "ammo.rifle.explosive",
+        "english": "Explosive 5.56 Rifle Ammo"
+    },
+    "displayDescription": {
+        "token": "ammo.rifle.explosive.desc",
+        "english": "This ammo explodes on contact dealing a small amount of fragmentation damage to nearby objects."
+    },
+    "iconSprite": {
+        "instanceID": 95528
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 100,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 75180
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75180
+    },
+    "inventoryDropSound": {
+        "instanceID": 50550
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectileSpawn
+{
+    "projectileObject": {
+        "guid": "7d22d2b8f6e2a9641a9441325ac70be2"
+    },
+    "mods": [
+        {
+            "instanceID": 328976
+        }
+    ],
+    "ammoType": 2,
+    "numProjectiles": 1,
+    "projectileSpread": 0.5,
+    "projectileVelocity": 225.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet",
+    "createOnImpactChance": 0.05000000074505806,
+    "createOnImpact": {
+        "guid": "f7c5775fec7dfc04c873abe8fcb0c43d"
+    },
+    "spreadAngle": 0.0,
+    "spreadVelocityMin": 0.0,
+    "spreadVelocityMax": 0.0
+}
+
+ItemModProjectileRadialDamage
+{
+    "radius": 1.5,
+    "damage": {
+        "type": 16,
+        "amount": 5.0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327088
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 128056
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 2,
+    "UnlockLevel": 29,
+    "UnlockPrice": 48
+}
+

@@ -1,0 +1,80 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1983936587,
+    "shortname": "crude.oil",
+    "displayName": {
+        "token": "crude.oil",
+        "english": "Crude Oil"
+    },
+    "displayDescription": {
+        "token": "crude.oil.desc",
+        "english": "Raw Oil out of the ground, must be refined in a refinery to be used."
+    },
+    "iconSprite": {
+        "instanceID": 92116
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 500,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "022cd0fe83c318346a54c671de86bce8"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModCookable
+{
+    "becomeOnCooked": {
+        "instanceID": 327270
+    },
+    "cookTime": 10.0,
+    "amountOfBecome": 3,
+    "lowTemp": 1400,
+    "highTemp": 1600,
+    "setCookingFlag": false
+}
+

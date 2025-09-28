@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 510887968,
+    "shortname": "barricade.stone",
+    "displayName": {
+        "token": "barricade.stone",
+        "english": "Stone Barricade"
+    },
+    "displayDescription": {
+        "token": "barricade.stone.desc",
+        "english": "A protective barricade made out of Stones."
+    },
+    "iconSprite": {
+        "instanceID": 80202
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 3,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 118464
+    },
+    "inventoryGrabSound": {
+        "instanceID": 118464
+    },
+    "inventoryDropSound": {
+        "instanceID": 43906
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "aa20438b8d255f3478c45a2298f52d82"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128014
+            },
+            "amount": 100.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 11,
+    "UnlockPrice": 5
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -465236267,
+    "shortname": "weapon.mod.holosight",
+    "displayName": {
+        "token": "weapon.mod.holosight",
+        "english": "Holosight"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.holosight.desc",
+        "english": "Uses laser projection to create a holographic sight which is always pointing at the target regardless of view angle."
+    },
+    "iconSprite": {
+        "instanceID": 96316
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 8,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": false,
+        "max": 300.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "35d656a70ad593249abd523dbd8a19aa"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 12.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 26,
+    "UnlockPrice": 59
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "0e34df87fae7e284db95d24f0708a1d4"
+    },
+    "defaultBone": "scope.attachment"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "2554f489f4c7a734e955353e709cb606"
+    },
+    "actionType": 0
+}
+

@@ -1,0 +1,74 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -892070738,
+    "shortname": "stones",
+    "displayName": {
+        "token": "stones",
+        "english": "Stones"
+    },
+    "displayDescription": {
+        "token": "stones.desc",
+        "english": "Stones."
+    },
+    "iconSprite": {
+        "instanceID": 112182
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 118464
+    },
+    "inventoryGrabSound": {
+        "instanceID": 118464
+    },
+    "inventoryDropSound": {
+        "instanceID": 43906
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "0966f548bf7914b468999cb41a5fda10"
+    },
+    "physImpactMed": {
+        "guid": "70eab17fdb7aa4182a77cdc6a0448642"
+    },
+    "physImpactHard": {
+        "guid": "b9a5226e1c05c4463b11bf4bb376809e"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "005b4b34a76b487469e735de75abe017"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModXPWhenUsed
+{
+    "xpPerUnit": 1.0,
+    "unitSize": 1000
+}
+

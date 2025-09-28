@@ -1,0 +1,97 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -307490664,
+    "shortname": "building.planner",
+    "displayName": {
+        "token": "building.planner",
+        "english": "Building Plan"
+    },
+    "displayDescription": {
+        "token": "building.planner.desc",
+        "english": "A building plan. You can use this to craft buildings"
+    },
+    "iconSprite": {
+        "instanceID": 13776
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 117212
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117212
+    },
+    "inventoryDropSound": {
+        "instanceID": 71728
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "37dd6adb5ff2dd34e82911123fa0718d"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 327248
+            },
+            "amount": 1.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 1,
+    "UnlockPrice": 0
+}
+

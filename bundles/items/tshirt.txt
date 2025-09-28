@@ -1,0 +1,102 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -864578046,
+    "shortname": "tshirt",
+    "displayName": {
+        "token": "tshirt",
+        "english": "T-Shirt"
+    },
+    "displayDescription": {
+        "token": "tshirt.desc",
+        "english": "A t-shirt with very short sleeves."
+    },
+    "iconSprite": {
+        "instanceID": 20408
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 40488
+    },
+    "inventoryGrabSound": {
+        "instanceID": 40488
+    },
+    "inventoryDropSound": {
+        "instanceID": 25922
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "6286a915abaf643469b58288a5a81ae2"
+    },
+    "protectionProperties": {
+        "instanceID": 54266
+    },
+    "armorProperties": {
+        "instanceID": 44352
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 12,
+    "UnlockPrice": 5
+}
+

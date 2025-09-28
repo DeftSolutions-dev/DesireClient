@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 995306285,
+    "shortname": "wall.frame.fence.gate",
+    "displayName": {
+        "token": "wall.frame.fence.gate",
+        "english": "Chainlink Fence Gate"
+    },
+    "displayDescription": {
+        "token": "wall.frame.fence.gate.desc",
+        "english": "A Chainlink Fence Gate"
+    },
+    "iconSprite": {
+        "instanceID": 76666
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 75180
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75180
+    },
+    "inventoryDropSound": {
+        "instanceID": 75180
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "bad1d419cf594fa43b75bfc77d86403a"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 150.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 11,
+    "UnlockPrice": 5
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

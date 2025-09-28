@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1051155022,
+    "shortname": "stash.small",
+    "displayName": {
+        "token": "stash.small",
+        "english": "Small Stash"
+    },
+    "displayDescription": {
+        "token": "stash.small.desc",
+        "english": "A hidden, burried stash to keep your items safe. After placing, return to the stash and aim at the ground where you hid it and it will reveal itself."
+    },
+    "iconSprite": {
+        "instanceID": 97492
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "838e2a2901edc7a4ea1694c3a0d9f05b"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 3,
+    "UnlockPrice": 2
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

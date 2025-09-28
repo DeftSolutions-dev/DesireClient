@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 112903447,
+    "shortname": "water",
+    "displayName": {
+        "token": "water",
+        "english": "Water"
+    },
+    "displayDescription": {
+        "token": "water.desc",
+        "english": "Water. Drinking it will alleviate your thirst."
+    },
+    "iconSprite": {
+        "instanceID": 54402
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 100,
+    "itemType": 2,
+    "amountType": 1,
+    "occupySlots": 0,
+    "stackable": 2147483647,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 50,
+    "effects": [
+        {
+            "type": 1,
+            "amount": 30.0,
+            "time": 5.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 3,
+            "amount": -3.0,
+            "time": 3.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 7,
+            "amount": 5.0,
+            "time": 5.0,
+            "onlyIfHealthLessThan": 0.4000000059604645
+        },
+        {
+            "type": 4,
+            "amount": -5.0,
+            "time": 4.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "fd3d65b0fac43284d8536ec0ae8d0c45"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [],
+    "xpScalar": 0.0
+}
+

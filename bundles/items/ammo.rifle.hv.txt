@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1152393492,
+    "shortname": "ammo.rifle.hv",
+    "displayName": {
+        "token": "ammo.rifle.hv",
+        "english": "HV 5.56 Rifle Ammo"
+    },
+    "displayDescription": {
+        "token": "ammo.rifle.hv.desc",
+        "english": "This ammunition travels faster, resulting in less drop and slightly higher damage."
+    },
+    "iconSprite": {
+        "instanceID": 98422
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 100,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 75180
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75180
+    },
+    "inventoryDropSound": {
+        "instanceID": 50550
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "3bb5c8689b58e6548afc35fb6860058c"
+    },
+    "mods": [],
+    "ammoType": 2,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 450.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327088
+            },
+            "amount": 20.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 2,
+    "UnlockLevel": 22,
+    "UnlockPrice": 16
+}
+

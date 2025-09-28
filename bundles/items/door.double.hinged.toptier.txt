@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -933236257,
+    "shortname": "door.double.hinged.toptier",
+    "displayName": {
+        "token": "door.double.hinged.toptier",
+        "english": "Armored Double Door"
+    },
+    "displayDescription": {
+        "token": "door.double.hinged.toptier.desc",
+        "english": "A hinged double door which is made out of armored metal"
+    },
+    "iconSprite": {
+        "instanceID": 81338
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "738bc09b910593048aae31f16a81fc38"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 800.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 1000.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 2.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 20,
+    "UnlockPrice": 16
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

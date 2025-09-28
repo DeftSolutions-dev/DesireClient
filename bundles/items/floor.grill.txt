@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1722829188,
+    "shortname": "floor.grill",
+    "displayName": {
+        "token": "floor.grill",
+        "english": "A floor grill"
+    },
+    "displayDescription": {
+        "token": "floor.grill.desc",
+        "english": "A floor grill"
+    },
+    "iconSprite": {
+        "instanceID": 50966
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "2bfb0c152bb78914cbd4c328c262e36d"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 150.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 10,
+    "UnlockPrice": 5
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

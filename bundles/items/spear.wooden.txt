@@ -1,0 +1,111 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1127699509,
+    "shortname": "spear.wooden",
+    "displayName": {
+        "token": "spear.wooden",
+        "english": "Wooden Spear"
+    },
+    "displayDescription": {
+        "token": "spear.wooden.desc",
+        "english": "A wooden Spear."
+    },
+    "iconSprite": {
+        "instanceID": 101964
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 18458
+    },
+    "inventoryGrabSound": {
+        "instanceID": 18458
+    },
+    "inventoryDropSound": {
+        "instanceID": 81240
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "9aff2c32bb7774f1ba38e74e744aba32"
+    },
+    "physImpactMed": {
+        "guid": "03eb7e2dda71247d99aba04b74a9fe6b"
+    },
+    "physImpactHard": {
+        "guid": "b2e80e752278b4470b3c4ec92b0cec86"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "78245f729fefe4b4ea508b8d11f79b98"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "e3dfa36895088f04d9c19ddf2c5e3329"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 300.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 2,
+    "UnlockPrice": 1
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "2b44a5352e8426a429f564b87e7d6334"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 25.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

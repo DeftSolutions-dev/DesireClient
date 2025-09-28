@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 776005741,
+    "shortname": "knife.bone",
+    "displayName": {
+        "token": "knife.bone",
+        "english": "Bone Knife"
+    },
+    "displayDescription": {
+        "token": "knife.bone.desc",
+        "english": "Melee weapon crafted from bone and wood. Best in class at harvesting flesh."
+    },
+    "iconSprite": {
+        "instanceID": 26328
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 18458
+    },
+    "inventoryGrabSound": {
+        "instanceID": 18458
+    },
+    "inventoryDropSound": {
+        "instanceID": 81240
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "9ec50bd04946c48f09fba4b6566331a2"
+    },
+    "physImpactMed": {
+        "guid": "8e4a4d1951ed64c8eb63bc30f8f933eb"
+    },
+    "physImpactHard": {
+        "guid": "9235ec66e5d9c4d20aba9e079a7980d2"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "9db482e183d61ee48a052e4d157b4bf2"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "b04d0736b6748674eb45260104e786e6"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 327306
+            },
+            "amount": 60.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 4,
+    "UnlockPrice": 5
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "e338d3577f12238459e343bf58a351c6"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 20.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 516382256,
+    "shortname": "weapon.mod.lasersight",
+    "displayName": {
+        "token": "weapon.mod.lasersight",
+        "english": "Weapon Lasersight"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.lasersight.desc",
+        "english": "Weapon Lasersight"
+    },
+    "iconSprite": {
+        "instanceID": 119040
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 16,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": false,
+        "max": 300.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "c93f334c9fdecd649abda74d0e58f345"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 8.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 24,
+    "UnlockPrice": 54
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "0b508f95131b82c44bd1fd884fb7e9f3"
+    },
+    "defaultBone": "flashlight.attachment"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "2554f489f4c7a734e955353e709cb606"
+    },
+    "actionType": 0
+}
+

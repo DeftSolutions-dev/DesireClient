@@ -1,0 +1,103 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1379225193,
+    "shortname": "pistol.eoka",
+    "displayName": {
+        "token": "pistol.eoka",
+        "english": "Eoka Pistol"
+    },
+    "displayDescription": {
+        "token": "pistol.eoka.desc",
+        "english": "A very basic Pistol that fires one Pistol Round at a time."
+    },
+    "iconSprite": {
+        "instanceID": 92622
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": true,
+        "max": 50.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "a50dcbc8ac0a92043bbbc4b303c4c1fe"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "15dba6521b56a9c4a96c48a5de92a8ca"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 150.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 35.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 12,
+    "UnlockPrice": 8
+}
+

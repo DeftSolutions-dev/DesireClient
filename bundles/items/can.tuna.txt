@@ -1,0 +1,154 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -171664558,
+    "shortname": "can.tuna",
+    "displayName": {
+        "token": "can.tuna",
+        "english": "Can of Tuna"
+    },
+    "displayDescription": {
+        "token": "can.tuna.desc",
+        "english": "Chunked tuna found as loot. Eating it provides a small boost to health, hunger, and thirst."
+    },
+    "iconSprite": {
+        "instanceID": 19296
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 75180
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75180
+    },
+    "inventoryDropSound": {
+        "instanceID": 50550
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "56a163f22f7764c499a621708c47a3be"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [
+        {
+            "itemDef": {
+                "instanceID": 327102
+            },
+            "amount": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0
+                    },
+                    {
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 0
+            }
+        }
+    ],
+    "xpScalar": 1.0
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 50.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 15.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 7,
+            "amount": 2.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 328630
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 41856
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+

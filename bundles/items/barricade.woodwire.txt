@@ -1,0 +1,111 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1024486167,
+    "shortname": "barricade.woodwire",
+    "displayName": {
+        "token": "barricade.woodwire",
+        "english": "Barbed Wooden Barricade"
+    },
+    "displayDescription": {
+        "token": "barricade.woodwire.desc",
+        "english": "A wooden barricade with barbed wire, made of Wood and Metal Fragments. The barbed wire causes damage and will also slow player movement."
+    },
+    "iconSprite": {
+        "instanceID": 47558
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 48594
+    },
+    "inventoryGrabSound": {
+        "instanceID": 48594
+    },
+    "inventoryDropSound": {
+        "instanceID": 34244
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "55158aed1ab9bec4dbd8dfa0ecd7829d"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 300.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 12,
+    "UnlockPrice": 7
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

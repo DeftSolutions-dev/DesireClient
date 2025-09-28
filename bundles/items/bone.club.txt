@@ -1,0 +1,111 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 919780768,
+    "shortname": "bone.club",
+    "displayName": {
+        "token": "bone.club",
+        "english": "Bone Club"
+    },
+    "displayDescription": {
+        "token": "bone.club.desc",
+        "english": "A blunt weapon made from a femur. All around basic gathering tool."
+    },
+    "iconSprite": {
+        "instanceID": 49542
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 18458
+    },
+    "inventoryGrabSound": {
+        "instanceID": 18458
+    },
+    "inventoryDropSound": {
+        "instanceID": 81240
+    },
+    "condition": {
+        "enabled": true,
+        "max": 80.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "9ec50bd04946c48f09fba4b6566331a2"
+    },
+    "physImpactMed": {
+        "guid": "8e4a4d1951ed64c8eb63bc30f8f933eb"
+    },
+    "physImpactHard": {
+        "guid": "9235ec66e5d9c4d20aba9e079a7980d2"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "6f8f4a71119a8c542b2499e45160a1f9"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "5972b0108d9ed6543b8dd1c6db63dbd5"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 327306
+            },
+            "amount": 20.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 1,
+    "UnlockPrice": 0
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "a14880538254fd2439a590019a1c5357"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 20.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

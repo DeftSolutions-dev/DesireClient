@@ -1,0 +1,108 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1178289187,
+    "shortname": "deer.skull.mask",
+    "displayName": {
+        "token": "deer.skull.mask",
+        "english": "Bone Helmet"
+    },
+    "displayDescription": {
+        "token": "deer.skull.mask.desc",
+        "english": "A helmet made of bone"
+    },
+    "iconSprite": {
+        "instanceID": 16834
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "eb03d396e9bb3e446804666f52ea755f"
+    },
+    "protectionProperties": {
+        "instanceID": 70384
+    },
+    "armorProperties": {
+        "instanceID": 69726
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327306
+            },
+            "amount": 200.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 12,
+    "UnlockPrice": 5
+}
+

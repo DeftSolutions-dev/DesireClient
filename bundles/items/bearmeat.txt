@@ -1,0 +1,138 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1325935999,
+    "shortname": "bearmeat",
+    "displayName": {
+        "token": "bearmeat",
+        "english": "Bear Meat"
+    },
+    "displayDescription": {
+        "token": "bearmeat.desc",
+        "english": "Raw Bear Meat. Eating it will damage your health."
+    },
+    "iconSprite": {
+        "instanceID": 100660
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 45724
+    },
+    "inventoryGrabSound": {
+        "instanceID": 45724
+    },
+    "inventoryDropSound": {
+        "instanceID": 103360
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "c9d814f9cb57d45d7b2bf902579857c3"
+    },
+    "physImpactMed": {
+        "guid": "e69cdd3cf6ab74c64b2967015f351353"
+    },
+    "physImpactHard": {
+        "guid": "35d84670cb82b41e194696f90914632a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "cfc0427cf715e9a418839dabb5b0925e"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "56a163f22f7764c499a621708c47a3be"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [],
+    "xpScalar": 0.0
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 10.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 3.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 3,
+            "amount": 5.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 328638
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 41856
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+
+ItemModCookable
+{
+    "becomeOnCooked": {
+        "instanceID": 327182
+    },
+    "cookTime": 30.0,
+    "amountOfBecome": 1,
+    "lowTemp": 150,
+    "highTemp": 250,
+    "setCookingFlag": true
+}
+

@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -163742043,
+    "shortname": "sign.post.single",
+    "displayName": {
+        "token": "sign.post.single",
+        "english": "Single Sign Post"
+    },
+    "displayDescription": {
+        "token": "sign.post.single.desc",
+        "english": "A single sign post that you can plant into terrain"
+    },
+    "iconSprite": {
+        "instanceID": 54730
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 48594
+    },
+    "inventoryGrabSound": {
+        "instanceID": 48594
+    },
+    "inventoryDropSound": {
+        "instanceID": 34244
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 78768
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 200.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 0,
+    "UnlockPrice": 0
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "b5ec1c09382cefe46a619a04f974915a"
+    },
+    "showCrosshair": false
+}
+

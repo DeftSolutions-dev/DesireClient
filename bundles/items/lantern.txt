@@ -1,0 +1,111 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -51678842,
+    "shortname": "lantern",
+    "displayName": {
+        "token": "lantern",
+        "english": "Lantern"
+    },
+    "displayDescription": {
+        "token": "lantern.desc",
+        "english": "A Lantern. Place it where you need light."
+    },
+    "iconSprite": {
+        "instanceID": 81244
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 72336
+    },
+    "inventoryGrabSound": {
+        "instanceID": 72336
+    },
+    "inventoryDropSound": {
+        "instanceID": 101686
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "889ee3ee13357ca488fa05b3b2464132"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "3fdee0c6792f89642bd15bdff0e569fe"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327270
+            },
+            "amount": 15.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 16,
+    "UnlockPrice": 10
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

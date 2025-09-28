@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -698499648,
+    "shortname": "sign.wooden.small",
+    "displayName": {
+        "token": "sign.wooden.small",
+        "english": "Small Wooden Sign"
+    },
+    "displayDescription": {
+        "token": "sign.wooden.small.desc",
+        "english": "A 1-meter by 0.5-meter wooden sign that you can write on."
+    },
+    "iconSprite": {
+        "instanceID": 21560
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 48594
+    },
+    "inventoryGrabSound": {
+        "instanceID": 48594
+    },
+    "inventoryDropSound": {
+        "instanceID": 34244
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 300.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 4,
+    "UnlockPrice": 3
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "c07541da89fae2049a7c47046d9f3a6b"
+    },
+    "showCrosshair": false
+}
+

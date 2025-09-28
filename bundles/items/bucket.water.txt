@@ -1,0 +1,148 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1192532973,
+    "shortname": "bucket.water",
+    "displayName": {
+        "token": "bucket.water",
+        "english": "Water Bucket"
+    },
+    "displayDescription": {
+        "token": "bucket.water.desc",
+        "english": "A bucket for transporting water or other liquids"
+    },
+    "iconSprite": {
+        "instanceID": 60958
+    },
+    "category": 5,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 72336
+    },
+    "inventoryGrabSound": {
+        "instanceID": 72336
+    },
+    "inventoryDropSound": {
+        "instanceID": 101686
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "2356f2610cb4b42689f1954267ff93f7"
+    },
+    "physImpactMed": {
+        "guid": "92d329d909b3e4772a2aefae067a0c51"
+    },
+    "physImpactHard": {
+        "guid": "59b3933b9453349348f3d3bdc252989b"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "3e876e200e395c84e8c080ad8636a163"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "8d976d2ebd319b349aa5898c6a801c31"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 100.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 8,
+    "UnlockPrice": 5
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 2000,
+    "containerFlags": 8,
+    "onlyAllowedContents": 2,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": []
+}
+
+ItemModMenuOption
+{
+    "commandName": "consumecontents",
+    "actionTarget": {
+        "instanceID": 327304
+    },
+    "option": {
+        "name": {
+            "token": "drink_contents",
+            "english": "Drink Contents"
+        },
+        "description": {
+            "token": "",
+            "english": ""
+        },
+        "icon": {
+            "instanceID": 40286
+        },
+        "order": 0
+    },
+    "isPrimaryOption": false
+}
+
+ItemModConsumeContents
+{
+    "consumeEffect": {
+        "guid": ""
+    }
+}
+

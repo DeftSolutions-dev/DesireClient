@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1456441506,
+    "shortname": "door.hinged.wood",
+    "displayName": {
+        "token": "door.hinged.wood",
+        "english": "Wooden Door"
+    },
+    "displayDescription": {
+        "token": "door.hinged.wood.desc",
+        "english": "A hinged door which is made out of wood"
+    },
+    "iconSprite": {
+        "instanceID": 112306
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 48594
+    },
+    "inventoryGrabSound": {
+        "instanceID": 48594
+    },
+    "inventoryDropSound": {
+        "instanceID": 34244
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "f3f14aaea3ee3d048a1e7461ec7c4598"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 300.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 1,
+    "UnlockPrice": 0
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

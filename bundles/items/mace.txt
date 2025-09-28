@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 3343606,
+    "shortname": "mace",
+    "displayName": {
+        "token": "mace",
+        "english": "Mace"
+    },
+    "displayDescription": {
+        "token": "mace.desc",
+        "english": "A powerful 2-handed melee weapon with high damage."
+    },
+    "iconSprite": {
+        "instanceID": 62704
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "6cce3fa09dede43e2914d1d3813cc9cc"
+    },
+    "physImpactMed": {
+        "guid": "1aa33a0a8e6074c718fe6c5510a4a7a5"
+    },
+    "physImpactHard": {
+        "guid": "f956079fca3bf4d2b82dc9a88882c88b"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "077f8b5e0648e6741978a4e1769065a5"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "fc0fa3fffd872e346ab96f984182186e"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 80.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 14,
+    "UnlockPrice": 9
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "4c6f59fc07ff3854096376018b110586"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 18.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

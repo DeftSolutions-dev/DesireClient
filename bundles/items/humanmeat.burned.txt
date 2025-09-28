@@ -1,0 +1,132 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1014825244,
+    "shortname": "humanmeat.burned",
+    "displayName": {
+        "token": "humanmeat.burned",
+        "english": "Burned Human Meat"
+    },
+    "displayDescription": {
+        "token": "humanmeat.burned.desc",
+        "english": "Burned Meat from a human being. Consuming will damage your health."
+    },
+    "iconSprite": {
+        "instanceID": 16482
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 45724
+    },
+    "inventoryGrabSound": {
+        "instanceID": 45724
+    },
+    "inventoryDropSound": {
+        "instanceID": 103360
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "c9d814f9cb57d45d7b2bf902579857c3"
+    },
+    "physImpactMed": {
+        "guid": "e69cdd3cf6ab74c64b2967015f351353"
+    },
+    "physImpactHard": {
+        "guid": "35d84670cb82b41e194696f90914632a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "9be852c8b4b97e845862f365c9c5085c"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": ""
+    },
+    "eatGesture": "eat_2hand",
+    "product": [],
+    "xpScalar": 0.0
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 6.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 2.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 3,
+            "amount": 20.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 6,
+            "amount": 2.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 476812
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 41856
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+

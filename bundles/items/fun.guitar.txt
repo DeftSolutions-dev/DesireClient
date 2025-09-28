@@ -1,0 +1,103 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -217113639,
+    "shortname": "fun.guitar",
+    "displayName": {
+        "token": "fun.guitar",
+        "english": "Acoustic Guitar"
+    },
+    "displayDescription": {
+        "token": "fun.guitar.desc",
+        "english": "A type of instrument. Play with primary and secondary fire. Change your view angle to alter the pitch."
+    },
+    "iconSprite": {
+        "instanceID": 99724
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 48594
+    },
+    "inventoryGrabSound": {
+        "instanceID": 48594
+    },
+    "inventoryDropSound": {
+        "instanceID": 34244
+    },
+    "condition": {
+        "enabled": false,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "2c95c3cdbc1b9b34b93974681935df77"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "20e07c2b5aa76b14983edaa212e1fee5"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 10,
+    "UnlockPrice": 7
+}
+

@@ -1,0 +1,76 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1625468793,
+    "shortname": "supply.signal",
+    "displayName": {
+        "token": "supply.signal",
+        "english": "Supply Signal"
+    },
+    "displayDescription": {
+        "token": "supply.signal.desc",
+        "english": "Green signal smoke. Use to mark a location for an airdrop."
+    },
+    "iconSprite": {
+        "instanceID": 67888
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "0058350d14f2b4267854839cf4016561"
+    },
+    "physImpactMed": {
+        "guid": "4957d9a1cea694c8e9f01d13fc8315a3"
+    },
+    "physImpactHard": {
+        "guid": "68ffd473c81d24ed388a692a7f7df2f3"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "6d8e84c3d87e806429118793a1188dd6"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "c0a76c298eadce1409cef0b8b4b058d1"
+    },
+    "defaultBone": ""
+}
+

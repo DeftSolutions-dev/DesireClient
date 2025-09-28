@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 146685185,
+    "shortname": "longsword",
+    "displayName": {
+        "token": "longsword",
+        "english": "Longsword"
+    },
+    "displayDescription": {
+        "token": "longsword.desc",
+        "english": "A powerful 2-handed melee weapon with good range and high damage."
+    },
+    "iconSprite": {
+        "instanceID": 55468
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 60276
+    },
+    "inventoryGrabSound": {
+        "instanceID": 60276
+    },
+    "inventoryDropSound": {
+        "instanceID": 88398
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "57b2677d984944a24abd0e22e9cc60f5"
+    },
+    "physImpactMed": {
+        "guid": "2985cc0944a4d4f8c8d47499f8a99b3d"
+    },
+    "physImpactHard": {
+        "guid": "69d37e2f821204277b305e728350a242"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "7222ab7450df948428b08462d778ee35"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "d4ed031f05c407643912a436dd0eab5a"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 30.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 150.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 19,
+    "UnlockPrice": 18
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "870f23028a473444fbe1e3d4f87abcfd"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 18.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

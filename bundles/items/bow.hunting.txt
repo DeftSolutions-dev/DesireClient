@@ -1,0 +1,103 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -853695669,
+    "shortname": "bow.hunting",
+    "displayName": {
+        "token": "bow.hunting",
+        "english": "Hunting Bow"
+    },
+    "displayDescription": {
+        "token": "bow.hunting.desc",
+        "english": "A bow. For hunting."
+    },
+    "iconSprite": {
+        "instanceID": 22748
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 31098
+    },
+    "inventoryGrabSound": {
+        "instanceID": 31098
+    },
+    "inventoryDropSound": {
+        "instanceID": 19734
+    },
+    "condition": {
+        "enabled": true,
+        "max": 50.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "cb03dddac1611514a901d68de48ecdea"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "1d6821bb3ad2bd54890fc63a2797c08e"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 7,
+    "UnlockPrice": 8
+}
+

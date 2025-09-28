@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1569356508,
+    "shortname": "weapon.mod.muzzleboost",
+    "displayName": {
+        "token": "weapon.mod.muzzleboost",
+        "english": "Muzzle Boost"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.muzzleboost.desc",
+        "english": "Increases weapon fire rate by channeling gasses back into the weapon cycling it faster, at the cost of bullet velocity and accuracy"
+    },
+    "iconSprite": {
+        "instanceID": 17640
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 6,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "f54da176ccd37c24eb04c3b91569cc7b"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 27,
+    "UnlockPrice": 41
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "52b0f5c38476f9b42a9364f8de5f111b"
+    },
+    "defaultBone": "barrel"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "2554f489f4c7a734e955353e709cb606"
+    },
+    "actionType": 0
+}
+

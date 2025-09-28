@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -141135377,
+    "shortname": "weapon.mod.small.scope",
+    "displayName": {
+        "token": "weapon.mod.small.scope",
+        "english": "4x Zoom Scope"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.small.scope.desc",
+        "english": "A small 4x zoom scope"
+    },
+    "iconSprite": {
+        "instanceID": 78862
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 8,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": false,
+        "max": 300.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "cb934a88902e78944aba7e4b281cb2a5"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 30,
+    "UnlockPrice": 68
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "132b125f7ea0a8d4ba3b19f959efaecd"
+    },
+    "defaultBone": "scope.attachment"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "2554f489f4c7a734e955353e709cb606"
+    },
+    "actionType": 0
+}
+

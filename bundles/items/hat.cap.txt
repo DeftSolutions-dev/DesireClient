@@ -1,0 +1,102 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 696727039,
+    "shortname": "hat.cap",
+    "displayName": {
+        "token": "hat.cap",
+        "english": "Baseball Cap"
+    },
+    "displayDescription": {
+        "token": "hat.cap.desc",
+        "english": "A baseball cap."
+    },
+    "iconSprite": {
+        "instanceID": 118732
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 40488
+    },
+    "inventoryGrabSound": {
+        "instanceID": 40488
+    },
+    "inventoryDropSound": {
+        "instanceID": 25922
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "7aab8f6056b82f540a04cf42be86e9e9"
+    },
+    "protectionProperties": {
+        "instanceID": 97268
+    },
+    "armorProperties": {
+        "instanceID": 69726
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 0,
+    "UnlockPrice": 0
+}
+

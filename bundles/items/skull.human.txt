@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 960793436,
+    "shortname": "skull.human",
+    "displayName": {
+        "token": "skull.human",
+        "english": "Human Skull"
+    },
+    "displayDescription": {
+        "token": "skull.human.desc",
+        "english": "A human skull."
+    },
+    "iconSprite": {
+        "instanceID": 36876
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "86a22249284423543908631fdf381be4"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModSwap
+{
+    "actionEffect": {
+        "guid": ""
+    },
+    "becomeItem": [
+        {
+            "itemDef": {
+                "instanceID": 327306
+            },
+            "amount": 20.0
+        }
+    ],
+    "sendPlayerPickupNotification": true,
+    "sendPlayerDropNotification": true,
+    "xpScale": 0.0
+}
+
+ItemModMenuOption
+{
+    "commandName": "crush",
+    "actionTarget": {
+        "instanceID": 478964
+    },
+    "option": {
+        "name": {
+            "token": "crush",
+            "english": "Crush"
+        },
+        "description": {
+            "token": "crush_desc",
+            "english": "Crush into bone fragments"
+        },
+        "icon": {
+            "instanceID": 91224
+        },
+        "order": 0
+    },
+    "isPrimaryOption": false
+}
+

@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1598149413,
+    "shortname": "furnace.large",
+    "displayName": {
+        "token": "furnace.large",
+        "english": "Large Furnace"
+    },
+    "displayDescription": {
+        "token": "furnace.large.desc",
+        "english": "A Large Furnace.Use it to smelt ore."
+    },
+    "iconSprite": {
+        "instanceID": 75520
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 118464
+    },
+    "inventoryGrabSound": {
+        "instanceID": 118464
+    },
+    "inventoryDropSound": {
+        "instanceID": 43906
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "fd02b78a0b5b2bc4582a74372cf39ad7"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128014
+            },
+            "amount": 500.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 600.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327270
+            },
+            "amount": 75.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 15,
+    "UnlockPrice": 8
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

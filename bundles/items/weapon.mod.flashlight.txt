@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1229879204,
+    "shortname": "weapon.mod.flashlight",
+    "displayName": {
+        "token": "weapon.mod.flashlight",
+        "english": "Weapon Flashlight"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.flashlight.desc",
+        "english": "Weapon flashlight"
+    },
+    "iconSprite": {
+        "instanceID": 66288
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 16,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": false,
+        "max": 300.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "c93f334c9fdecd649abda74d0e58f345"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 3.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 23,
+    "UnlockPrice": 35
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "040f8478d8dc46e48ac0d2e1247ec12c"
+    },
+    "defaultBone": "flashlight.attachment"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "2554f489f4c7a734e955353e709cb606"
+    },
+    "actionType": 0
+}
+

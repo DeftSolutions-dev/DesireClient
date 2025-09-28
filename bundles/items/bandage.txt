@@ -1,0 +1,122 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -337261910,
+    "shortname": "bandage",
+    "displayName": {
+        "token": "bandage",
+        "english": "Bandage"
+    },
+    "displayDescription": {
+        "token": "bandage.desc",
+        "english": "Heal yourself or others with this bandage. Left-click heals you, right-click heals a target."
+    },
+    "iconSprite": {
+        "instanceID": 85506
+    },
+    "category": 6,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 3,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 40488
+    },
+    "inventoryGrabSound": {
+        "instanceID": 40488
+    },
+    "inventoryDropSound": {
+        "instanceID": 25922
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "02fa53281fd043f4d9c3d1d72eeda8bd"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "51ceb087922bccf4485e191e5db2b725"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 4.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 5.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 1,
+    "UnlockPrice": 0
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "effects": [
+        {
+            "type": 3,
+            "amount": -2.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 6,
+            "amount": 5.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 5,
+            "amount": -50.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+

@@ -1,0 +1,102 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1406876421,
+    "shortname": "hat.beenie",
+    "displayName": {
+        "token": "hat.beenie",
+        "english": "Beenie Hat"
+    },
+    "displayDescription": {
+        "token": "hat.beenie.desc",
+        "english": "A wooly hat."
+    },
+    "iconSprite": {
+        "instanceID": 94740
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 40488
+    },
+    "inventoryGrabSound": {
+        "instanceID": 40488
+    },
+    "inventoryDropSound": {
+        "instanceID": 25922
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "ebe0635f9e1c1fc43af119b89b5588f9"
+    },
+    "protectionProperties": {
+        "instanceID": 97268
+    },
+    "armorProperties": {
+        "instanceID": 69726
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 30.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 18,
+    "UnlockPrice": 11
+}
+

@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -388967316,
+    "shortname": "salvaged.sword",
+    "displayName": {
+        "token": "salvaged.sword",
+        "english": "Salvaged Sword"
+    },
+    "displayDescription": {
+        "token": "salvaged.sword.desc",
+        "english": "A powerful melee weapon made from a filed-down wrench. Great durability, good damage."
+    },
+    "iconSprite": {
+        "instanceID": 62530
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 60276
+    },
+    "inventoryGrabSound": {
+        "instanceID": 60276
+    },
+    "inventoryDropSound": {
+        "instanceID": 88398
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "57b2677d984944a24abd0e22e9cc60f5"
+    },
+    "physImpactMed": {
+        "guid": "2985cc0944a4d4f8c8d47499f8a99b3d"
+    },
+    "physImpactHard": {
+        "guid": "69d37e2f821204277b305e728350a242"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "27a829efa9e750c43b6e3354bdb3b41b"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "e8942c98bc049b24f9d667fce5b0a014"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 9,
+    "UnlockPrice": 8
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "7dee4a2459ddc90468fc0b75dc1543a8"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 20.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -578028723,
+    "shortname": "pickaxe",
+    "displayName": {
+        "token": "pickaxe",
+        "english": "Pick Axe"
+    },
+    "displayDescription": {
+        "token": "pickaxe.desc",
+        "english": "A Pickaxe, useful for gathering ore from rocks."
+    },
+    "iconSprite": {
+        "instanceID": 57018
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 18458
+    },
+    "inventoryGrabSound": {
+        "instanceID": 18458
+    },
+    "inventoryDropSound": {
+        "instanceID": 81240
+    },
+    "condition": {
+        "enabled": true,
+        "max": 400.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "9ec50bd04946c48f09fba4b6566331a2"
+    },
+    "physImpactMed": {
+        "guid": "8e4a4d1951ed64c8eb63bc30f8f933eb"
+    },
+    "physImpactHard": {
+        "guid": "9235ec66e5d9c4d20aba9e079a7980d2"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "03e774ec471560b4cbdcafed52786cad"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "88e744ab0e1a6ba47ad9938c5bc35905"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 100.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 11,
+    "UnlockPrice": 9
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "21c367dcf4a9b1f4dbd6b14505f796b6"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 18.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

@@ -1,0 +1,108 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1595790889,
+    "shortname": "roadsign.kilt",
+    "displayName": {
+        "token": "roadsign.kilt",
+        "english": "Road Sign Kilt"
+    },
+    "displayDescription": {
+        "token": "roadsign.kilt.desc",
+        "english": "A shoddy piece of leg armor made from Metal Fragments and Leather."
+    },
+    "iconSprite": {
+        "instanceID": 119840
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 72336
+    },
+    "inventoryGrabSound": {
+        "instanceID": 72336
+    },
+    "inventoryDropSound": {
+        "instanceID": 101686
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "8c9313e7204eb0c45b7818d9f540728a"
+    },
+    "protectionProperties": {
+        "instanceID": 75684
+    },
+    "armorProperties": {
+        "instanceID": 91194
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 327170
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 60.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 14,
+    "UnlockPrice": 10
+}
+

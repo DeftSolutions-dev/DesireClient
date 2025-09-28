@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1819281075,
+    "shortname": "ammo.shotgun.slug",
+    "displayName": {
+        "token": "ammo.shotgun.slug",
+        "english": "12 Gauge Slug"
+    },
+    "displayDescription": {
+        "token": "ammo.shotgun.slug.desc",
+        "english": "Single large projectile for a Shotgun."
+    },
+    "iconSprite": {
+        "instanceID": 95478
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 32,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "35e44bb3173e8f94780fd752da7983a8"
+    },
+    "mods": [],
+    "ammoType": 4,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 225.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "shotgun"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327088
+            },
+            "amount": 20.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 2,
+    "UnlockLevel": 23,
+    "UnlockPrice": 27
+}
+

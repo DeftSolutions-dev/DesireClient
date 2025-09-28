@@ -1,0 +1,122 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 456448245,
+    "shortname": "smg.thompson",
+    "displayName": {
+        "token": "smg.thompson",
+        "english": "Thompson"
+    },
+    "displayDescription": {
+        "token": "smg.thompson.desc",
+        "english": "A medium damage machine gun."
+    },
+    "iconSprite": {
+        "instanceID": 60656
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.10000000149011612,
+            "fractionMax": 0.20000000298023225
+        }
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "1e23d28c03421a44b8237a0da2d47be3"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "d78f7092cfb574a47be9b84bbf269021"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 35.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 100.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 180.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 24,
+    "UnlockPrice": 54
+}
+
+ItemModContainer
+{
+    "capacity": 2,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        2,
+        4,
+        8
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

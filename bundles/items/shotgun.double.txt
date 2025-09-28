@@ -1,0 +1,122 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 191795897,
+    "shortname": "shotgun.double",
+    "displayName": {
+        "token": "shotgun.double",
+        "english": "Double Barrel Shotgun"
+    },
+    "displayDescription": {
+        "token": "shotgun.double.desc",
+        "english": "A Shotgun. Fires a two rounds with a wide spread before needing a reload"
+    },
+    "iconSprite": {
+        "instanceID": 119472
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.25,
+            "fractionMax": 0.75
+        }
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "6aafa34e743b37047bb6ece85d937ba3"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "d7d3bfdd5c98aa84282ae2433e4e8dec"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 5.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 15,
+    "UnlockPrice": 12
+}
+
+ItemModContainer
+{
+    "capacity": 2,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        2,
+        8,
+        16
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

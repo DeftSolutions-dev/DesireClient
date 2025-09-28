@@ -1,0 +1,120 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 547302405,
+    "shortname": "waterjug",
+    "displayName": {
+        "token": "waterjug",
+        "english": "Water Jug"
+    },
+    "displayDescription": {
+        "token": "waterjug.desc",
+        "english": "A large jerry can for water"
+    },
+    "iconSprite": {
+        "instanceID": 117068
+    },
+    "category": 7,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 750,
+    "containerFlags": 8,
+    "onlyAllowedContents": 2,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": [
+        {
+            "itemDef": {
+                "instanceID": 328682
+            },
+            "amount": 240.0
+        }
+    ]
+}
+
+ItemModConsumeContents
+{
+    "consumeEffect": {
+        "guid": ""
+    }
+}
+
+ItemModMenuOption
+{
+    "commandName": "consumecontents",
+    "actionTarget": {
+        "instanceID": 327932
+    },
+    "option": {
+        "name": {
+            "token": "drink_contents",
+            "english": "Drink Contents"
+        },
+        "description": {
+            "token": "",
+            "english": ""
+        },
+        "icon": {
+            "instanceID": 40286
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+

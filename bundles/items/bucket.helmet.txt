@@ -1,0 +1,108 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1260209393,
+    "shortname": "bucket.helmet",
+    "displayName": {
+        "token": "bucket.helmet",
+        "english": "Bucket Helmet"
+    },
+    "displayDescription": {
+        "token": "bucket.helmet.desc",
+        "english": "A Bucket Helmet. It provides a level of regional protection from inflicted damage."
+    },
+    "iconSprite": {
+        "instanceID": 28510
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 72336
+    },
+    "inventoryGrabSound": {
+        "instanceID": 72336
+    },
+    "inventoryDropSound": {
+        "instanceID": 101686
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "42f2e788555f400459a2ee977c752ac6"
+    },
+    "protectionProperties": {
+        "instanceID": 77432
+    },
+    "armorProperties": {
+        "instanceID": 69726
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 40.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 9,
+    "UnlockPrice": 7
+}
+

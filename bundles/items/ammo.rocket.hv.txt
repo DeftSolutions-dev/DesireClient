@@ -1,0 +1,115 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 542276424,
+    "shortname": "ammo.rocket.hv",
+    "displayName": {
+        "token": "ammo.rocket.hv",
+        "english": "High Velocity Rocket"
+    },
+    "displayDescription": {
+        "token": "ammo.rocket.hv.desc",
+        "english": "Fast moving rocket ammunition."
+    },
+    "iconSprite": {
+        "instanceID": 46332
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 3,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "6cce3fa09dede43e2914d1d3813cc9cc"
+    },
+    "physImpactMed": {
+        "guid": "1aa33a0a8e6074c718fe6c5510a4a7a5"
+    },
+    "physImpactHard": {
+        "guid": "f956079fca3bf4d2b82dc9a88882c88b"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "021519925e5818343844164366fee76f"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "8c667093dcccf154b9b2ce12a0bbb1e4"
+    },
+    "mods": [],
+    "ammoType": 32,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 100.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "rocket"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 80.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327088
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 328646
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 31,
+    "UnlockPrice": 36
+}
+

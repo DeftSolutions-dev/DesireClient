@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 649603450,
+    "shortname": "rocket.launcher",
+    "displayName": {
+        "token": "rocket.launcher",
+        "english": "Rocket Launcher"
+    },
+    "displayDescription": {
+        "token": "rocket.launcher.desc",
+        "english": "Shoots rockets slighty farther than North Korea."
+    },
+    "iconSprite": {
+        "instanceID": 74358
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "6cce3fa09dede43e2914d1d3813cc9cc"
+    },
+    "physImpactMed": {
+        "guid": "1aa33a0a8e6074c718fe6c5510a4a7a5"
+    },
+    "physImpactHard": {
+        "guid": "f956079fca3bf4d2b82dc9a88882c88b"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "9e4647a42ce2a614298bf858708a8345"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "11a32cc58482de74d88c24c91be179d0"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 60.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 80.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 180.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 27,
+    "UnlockPrice": 41
+}
+

@@ -1,0 +1,142 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 68998734,
+    "shortname": "botabag",
+    "displayName": {
+        "token": "botabag",
+        "english": "Bota Bag"
+    },
+    "displayDescription": {
+        "token": "botabag.desc",
+        "english": "A canteen used to carry Water."
+    },
+    "iconSprite": {
+        "instanceID": 103412
+    },
+    "category": 2,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "498f16670ae2deb45be74d8d368c8110"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 300,
+    "containerFlags": 8,
+    "onlyAllowedContents": 2,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": []
+}
+
+ItemModConsumeContents
+{
+    "consumeEffect": {
+        "guid": ""
+    }
+}
+
+ItemModMenuOption
+{
+    "commandName": "consumecontents",
+    "actionTarget": {
+        "instanceID": 327668
+    },
+    "option": {
+        "name": {
+            "token": "drink_contents",
+            "english": "Drink Contents"
+        },
+        "description": {
+            "token": "",
+            "english": ""
+        },
+        "icon": {
+            "instanceID": 40286
+        },
+        "order": 0
+    },
+    "isPrimaryOption": false
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "c770f6b140127dc4890b4fc6b4e18ae1"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 15.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 15.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 3,
+    "UnlockPrice": 2
+}
+

@@ -1,0 +1,124 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1045869440,
+    "shortname": "flamethrower",
+    "displayName": {
+        "token": "flamethrower",
+        "english": "Flame Thrower"
+    },
+    "displayDescription": {
+        "token": "flamethrower.desc",
+        "english": "A Flamethrower. Uses low grade fuel as ammunition"
+    },
+    "iconSprite": {
+        "instanceID": 96976
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": true,
+        "max": 300.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.0,
+            "fractionMax": 0.019999999552965165
+        }
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "7f522b94e88d75c4abb4ce92f37c12df"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "d2a28132afbe57b49b71dc09a35edba5"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 8.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 250.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327270
+            },
+            "amount": 100.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 20,
+    "UnlockPrice": 18
+}
+
+ItemModContainer
+{
+    "capacity": 0,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

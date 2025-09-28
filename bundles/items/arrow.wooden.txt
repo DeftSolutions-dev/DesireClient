@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -420273765,
+    "shortname": "arrow.wooden",
+    "displayName": {
+        "token": "arrow.wooden",
+        "english": "Wooden Arrow"
+    },
+    "displayDescription": {
+        "token": "arrow.wooden.desc",
+        "english": "An arrow for a Hunting Bow and Crossbow."
+    },
+    "iconSprite": {
+        "instanceID": 30250
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 32,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 31098
+    },
+    "inventoryGrabSound": {
+        "instanceID": 31098
+    },
+    "inventoryDropSound": {
+        "instanceID": 19734
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "1cc639534b0c944a9b9b8381a7e91a01"
+    },
+    "physImpactMed": {
+        "guid": "f487aa2f85ce7475197d6491e74890e7"
+    },
+    "physImpactHard": {
+        "guid": "d9a8740a5d36e455ab0d243cf1ee7003"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "4412ed8a7fbd517438857c1ea63759c4"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "24e1b6e80481c444fb42a1a2de6aca42"
+    },
+    "mods": [],
+    "ammoType": 8,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 50.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "arrow"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 128014
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 20.0,
+    "amountToCreate": 2,
+    "UnlockLevel": 7,
+    "UnlockPrice": 5
+}
+

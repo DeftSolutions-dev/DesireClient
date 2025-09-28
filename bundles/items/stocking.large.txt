@@ -1,0 +1,84 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1623330855,
+    "shortname": "stocking.large",
+    "displayName": {
+        "token": "stocking.large.name",
+        "english": "SUPER Stocking"
+    },
+    "displayDescription": {
+        "token": "stocking.large.desc",
+        "english": "A SUPER Stocking. Hang it by a fire and you might just get an awesome gift!"
+    },
+    "iconSprite": {
+        "instanceID": 88672
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 40488
+    },
+    "inventoryGrabSound": {
+        "instanceID": 40488
+    },
+    "inventoryDropSound": {
+        "instanceID": 25922
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "c9c43dfbcc3fd7948a10b3eec05ec41a"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "1b337ecd8b3d05240bf53c53efcd8d0f"
+    },
+    "showCrosshair": false
+}
+

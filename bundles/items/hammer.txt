@@ -1,0 +1,111 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1224598842,
+    "shortname": "hammer",
+    "displayName": {
+        "token": "hammer",
+        "english": "Hammer"
+    },
+    "displayDescription": {
+        "token": "hammer.desc",
+        "english": "A Hammer, used to upgrade building materials. Right-click for the options."
+    },
+    "iconSprite": {
+        "instanceID": 66654
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 18458
+    },
+    "inventoryGrabSound": {
+        "instanceID": 18458
+    },
+    "inventoryDropSound": {
+        "instanceID": 81240
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "9ec50bd04946c48f09fba4b6566331a2"
+    },
+    "physImpactMed": {
+        "guid": "8e4a4d1951ed64c8eb63bc30f8f933eb"
+    },
+    "physImpactHard": {
+        "guid": "9235ec66e5d9c4d20aba9e079a7980d2"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "fea168a93986dc340ab936927251ee2e"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "7513d1084087e86429388330e1963f84"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 100.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 15.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 1,
+    "UnlockPrice": 0
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": ""
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 20.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

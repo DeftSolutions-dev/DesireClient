@@ -1,0 +1,95 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1725510067,
+    "shortname": "xmas.present.small",
+    "displayName": {
+        "token": "xmas.present.small.name",
+        "english": "Small Present"
+    },
+    "displayDescription": {
+        "token": "xmas.present.small.desc",
+        "english": "A small stocking stuffer present, Collect 10 to upgrade to a larger present"
+    },
+    "iconSprite": {
+        "instanceID": 81120
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "920c0bedbcb725f49be256e86fc7e7cb"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModUpgrade
+{
+    "numForUpgrade": 10,
+    "upgradeSuccessChance": 1.0,
+    "numToLoseOnFail": 10,
+    "upgradedItem": {
+        "instanceID": 479318
+    },
+    "numUpgradedItem": 1,
+    "successEffect": {
+        "guid": "33014c9966088dd429f292238b5e7370"
+    },
+    "failEffect": {
+        "guid": "e5871e8d6093ec44a9541ba57d703441"
+    }
+}
+
+ItemModUnwrap
+{
+    "revealList": {
+        "instanceID": 111484
+    },
+    "successEffect": {
+        "guid": "29286773a3f67a14889865e55e599365"
+    }
+}
+

@@ -1,0 +1,161 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 3059624,
+    "shortname": "corn",
+    "displayName": {
+        "token": "corn",
+        "english": "Corn"
+    },
+    "displayDescription": {
+        "token": "corn.desc",
+        "english": "An ear of corn. Eating it provides a small boost to health, hunger, and thirst."
+    },
+    "iconSprite": {
+        "instanceID": 107438
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 40.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 10.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 7,
+            "amount": 6.0,
+            "time": 30.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 127638
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 41856
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "56a163f22f7764c499a621708c47a3be"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [
+        {
+            "itemDef": {
+                "instanceID": 127626
+            },
+            "amount": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "time": -0.0388018824160099,
+                        "value": 1.0413553714752198,
+                        "inSlope": 0.5058351755142212,
+                        "outSlope": 0.5058351755142212,
+                        "tangentMode": 0
+                    },
+                    {
+                        "time": 0.5339041352272034,
+                        "value": 1.5164296627044678,
+                        "inSlope": 2.5320053100585939,
+                        "outSlope": 2.5320053100585939,
+                        "tangentMode": 0
+                    },
+                    {
+                        "time": 0.9993187785148621,
+                        "value": 3.504561185836792,
+                        "inSlope": 2.9293434619903566,
+                        "outSlope": 2.9293434619903566,
+                        "tangentMode": 0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            }
+        }
+    ],
+    "xpScalar": 1.0
+}
+

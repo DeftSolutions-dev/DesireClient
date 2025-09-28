@@ -1,0 +1,115 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1594947829,
+    "shortname": "ammo.rocket.smoke",
+    "displayName": {
+        "token": "ammo.rocket.smoke",
+        "english": "Smoke Rocket WIP!!!!"
+    },
+    "displayDescription": {
+        "token": "ammo.rocket.smoke.desc",
+        "english": "Emits thick, visibility blocking smoke upon impact."
+    },
+    "iconSprite": {
+        "instanceID": 39384
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 3,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 75936
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75936
+    },
+    "inventoryDropSound": {
+        "instanceID": 98374
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "6cce3fa09dede43e2914d1d3813cc9cc"
+    },
+    "physImpactMed": {
+        "guid": "1aa33a0a8e6074c718fe6c5510a4a7a5"
+    },
+    "physImpactHard": {
+        "guid": "f956079fca3bf4d2b82dc9a88882c88b"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "021519925e5818343844164366fee76f"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "6811609b4b2810c449f17ddd8b55ed27"
+    },
+    "mods": [],
+    "ammoType": 32,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 100.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "rocket"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 80.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327088
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 327270
+            },
+            "amount": 25.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 1,
+    "UnlockPrice": 0
+}
+

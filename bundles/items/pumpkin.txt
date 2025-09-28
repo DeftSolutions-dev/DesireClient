@@ -1,0 +1,174 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -225085592,
+    "shortname": "pumpkin",
+    "displayName": {
+        "token": "pumpkin",
+        "english": "Pumpkin"
+    },
+    "displayDescription": {
+        "token": "pumpkin.desc",
+        "english": "An edible vegetable that can also be worn as a hat. Eating it provides a small boost to health, hunger, and thirst."
+    },
+    "iconSprite": {
+        "instanceID": 19992
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "7eecee364fa34a446b2bf6fe55494788"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "b413b6a0cf2dde14d8ff16aa1ee3f16e"
+    },
+    "protectionProperties": {
+        "instanceID": 0
+    },
+    "armorProperties": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 40.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 30.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 7,
+            "amount": 10.0,
+            "time": 30.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 127856
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 41856
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "56a163f22f7764c499a621708c47a3be"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [
+        {
+            "itemDef": {
+                "instanceID": 127820
+            },
+            "amount": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "time": -0.1497616469860077,
+                        "value": 1.0331038236618043,
+                        "inSlope": 1.1868754625320435,
+                        "outSlope": 1.1868754625320435,
+                        "tangentMode": 0
+                    },
+                    {
+                        "time": 0.6712863445281982,
+                        "value": 1.7357356548309327,
+                        "inSlope": 3.08888578414917,
+                        "outSlope": 3.08888578414917,
+                        "tangentMode": 10
+                    },
+                    {
+                        "time": 0.9977532625198364,
+                        "value": 3.473191738128662,
+                        "inSlope": 2.9293434619903566,
+                        "outSlope": 2.9293434619903566,
+                        "tangentMode": 0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            }
+        }
+    ],
+    "xpScalar": 1.0
+}
+

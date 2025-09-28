@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -529054134,
+    "shortname": "shutter.metal.embrasure.b",
+    "displayName": {
+        "token": "shutter.metal.embrasure.b",
+        "english": "Metal Vertical embrasure"
+    },
+    "displayDescription": {
+        "token": "shutter.metal.embrasure.b.desc",
+        "english": "Static shutter that form a metal vertical embrasure over your window frame"
+    },
+    "iconSprite": {
+        "instanceID": 33764
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "maxDraggable": 10,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 75180
+    },
+    "inventoryGrabSound": {
+        "instanceID": 75180
+    },
+    "inventoryDropSound": {
+        "instanceID": 50550
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 200.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 12,
+    "UnlockPrice": 5
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "dd6162064624a4c4393781aabd5d3064"
+    },
+    "showCrosshair": false
+}
+

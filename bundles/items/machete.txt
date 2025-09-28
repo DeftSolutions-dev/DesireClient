@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 825308669,
+    "shortname": "machete",
+    "displayName": {
+        "token": "machete",
+        "english": "Machete"
+    },
+    "displayDescription": {
+        "token": "machete.desc",
+        "english": "A brutal weapon with good range."
+    },
+    "iconSprite": {
+        "instanceID": 17358
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 60276
+    },
+    "inventoryGrabSound": {
+        "instanceID": 60276
+    },
+    "inventoryDropSound": {
+        "instanceID": 88398
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "57b2677d984944a24abd0e22e9cc60f5"
+    },
+    "physImpactMed": {
+        "guid": "2985cc0944a4d4f8c8d47499f8a99b3d"
+    },
+    "physImpactHard": {
+        "guid": "69d37e2f821204277b305e728350a242"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "a96772358a524b0428eae96b69805df6"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "bbd31abe3c4171b4ab59be2b5785d187"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 128072
+            },
+            "amount": 100.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 127996
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 5,
+    "UnlockPrice": 5
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "cbddd4ad161cd3b47b9972cec2bbaa6c"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 20.0,
+    "projectileVelocitySpread": 0.0,
+    "category": "bullet"
+}
+

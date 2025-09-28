@@ -1,0 +1,123 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 548699316,
+    "shortname": "pistol.semiauto",
+    "displayName": {
+        "token": "pistol.semiauto",
+        "english": "Semi-Automatic Pistol"
+    },
+    "displayDescription": {
+        "token": "pistol.semiauto.desc",
+        "english": "A sem-automatic Pistol. Fires rapidly and with good accuracy."
+    },
+    "iconSprite": {
+        "instanceID": 62762
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 104772
+    },
+    "inventoryGrabSound": {
+        "instanceID": 104772
+    },
+    "inventoryDropSound": {
+        "instanceID": 113830
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.20000000298023225,
+            "fractionMax": 0.30000001192092898
+        }
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "44e14975bbd7b964390a8cf4ffae653e"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "feeefa135f4fd6442a61b0813dcd686f"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 127684
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 326888
+            },
+            "amount": 15.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 180.0,
+    "amountToCreate": 1,
+    "UnlockLevel": 21,
+    "UnlockPrice": 14
+}
+
+ItemModContainer
+{
+    "capacity": 3,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        2,
+        4,
+        8,
+        16
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

@@ -1,0 +1,120 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 927253046,
+    "shortname": "smallwaterbottle",
+    "displayName": {
+        "token": "smallwaterbottle",
+        "english": "Small Water Bottle"
+    },
+    "displayDescription": {
+        "token": "smallwaterbottle.desc",
+        "english": "Small Water Bottle. Fill it from Water Catchers."
+    },
+    "iconSprite": {
+        "instanceID": 113244
+    },
+    "category": 7,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 107468
+    },
+    "inventoryGrabSound": {
+        "instanceID": 107468
+    },
+    "inventoryDropSound": {
+        "instanceID": 64314
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 250,
+    "containerFlags": 8,
+    "onlyAllowedContents": 2,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": [
+        {
+            "itemDef": {
+                "instanceID": 328682
+            },
+            "amount": 120.0
+        }
+    ]
+}
+
+ItemModConsumeContents
+{
+    "consumeEffect": {
+        "guid": ""
+    }
+}
+
+ItemModMenuOption
+{
+    "commandName": "consumecontents",
+    "actionTarget": {
+        "instanceID": 328544
+    },
+    "option": {
+        "name": {
+            "token": "drink_contents",
+            "english": "Drink Contents"
+        },
+        "description": {
+            "token": "",
+            "english": ""
+        },
+        "icon": {
+            "instanceID": 40286
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+
