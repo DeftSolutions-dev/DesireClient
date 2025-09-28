@@ -1,0 +1,33 @@
+{
+  "Version": 3,
+  "ItemType": "Hunting Bow",
+  "AuthorId": 76561198809528330,
+  "PublishDate": "2024-07-23T16:20:36.0287366Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.3821879,
+        "_BumpScale": 1.12434363,
+        "_Glossiness": 1.1065675,
+        "_OcclusionStrength": 0.9910223
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    }
+  ]
+}

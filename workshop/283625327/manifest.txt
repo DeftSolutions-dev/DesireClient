@@ -1,0 +1,56 @@
+{
+  "Version": 3,
+  "ItemType": "Crossbow",
+  "AuthorId": 76561198198366593,
+  "PublishDate": "2022-07-17T00:39:06.8622062Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png",
+        "_MicrofiberFuzzMask": "none",
+        "_DetailNormalMap": "none"
+      },
+      "Floats": {
+        "_Cutoff": 0.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 1.0,
+        "_MicrofiberFuzzIntensity": 0.0,
+        "_MicrofiberFuzzScatter": 0.0,
+        "_MicrofiberFuzzOcclusion": 0.0,
+        "_DetailNormalMapScale": 0.0,
+        "_DetailOcclusionStrength": 0.0,
+        "_DetailOverlaySmoothness": 0.0,
+        "_DetailOverlaySpecular": 0.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "_MicrofiberFuzzColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "_DetailColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    }
+  ]
+}

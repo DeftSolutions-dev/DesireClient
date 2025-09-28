@@ -1,0 +1,67 @@
+{
+  "Version": 3,
+  "ItemType": "LR-300 Assault Rifle",
+  "AuthorId": 76561198110212185,
+  "PublishDate": "2022-04-03T00:29:34.1430046Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.107278571,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.0113349,
+        "_OcclusionStrength": 0.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    },
+    {
+      "Textures": {
+        "_MainTex": "_MainTex1.png",
+        "_SpecGlossMap": "_SpecGlossMap1.png",
+        "_BumpMap": "_BumpMap1.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.169770941,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.00612724,
+        "_OcclusionStrength": 0.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    }
+  ]
+}

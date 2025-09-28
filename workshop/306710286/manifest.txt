@@ -1,0 +1,68 @@
+{
+  "Version": 3,
+  "ItemType": "Road Sign Jacket",
+  "AuthorId": 76561198198366593,
+  "PublishDate": "2023-10-31T03:47:14.8176338Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "none",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.85,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 0.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    },
+    {
+      "Textures": {
+        "_MainTex": "_MainTex1.png",
+        "_OcclusionMap": "none",
+        "_SpecGlossMap": "_SpecGlossMap1.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.85,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 0.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    }
+  ]
+}

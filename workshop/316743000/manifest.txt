@@ -1,0 +1,58 @@
+{
+  "Groups": [
+    {
+      "Floats": {
+        "_Cutoff": 0.31,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.02,
+        "_OcclusionStrength": 1.0,
+        "_MicrofiberFuzzIntensity": 0.0,
+        "_MicrofiberFuzzScatter": 0.0,
+        "_MicrofiberFuzzOcclusion": 0.0,
+        "_DetailNormalMapScale": 0.0,
+        "_DetailOcclusionStrength": 0.0,
+        "_DetailOverlaySmoothness": 0.0,
+        "_DetailOverlaySpecular": 0.0
+      },
+      "Colors": {
+        "_Color": {
+          "g": 1.0,
+          "b": 1.0,
+          "r": 1.0
+        },
+        "_SpecColor": {
+          "g": 1.0,
+          "b": 1.0,
+          "r": 1.0
+        },
+        "_EmissionColor": {
+          "g": 0.0,
+          "b": 0.0,
+          "r": 0.0
+        },
+        "_MicrofiberFuzzColor": {
+          "g": 0.0,
+          "b": 0.0,
+          "r": 0.0
+        },
+        "_DetailColor": {
+          "g": 1.0,
+          "b": 1.0,
+          "r": 1.0
+        }
+      },
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png",
+        "_MicrofiberFuzzMask": "none",
+        "_DetailMask": "none",
+        "_DetailNormalMap": "none"
+      }
+    }
+  ],
+  "PublishDate": "2024-11-02T08:34:00.9778273Z",
+  "ItemType": "Crossbow",
+  "Version": 3,
+  "AuthorId": 76561198283162043
+}

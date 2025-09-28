@@ -1,0 +1,58 @@
+{
+  "Version": 3,
+  "ItemType": "Road Sign Kilt",
+  "AuthorId": 76561198030926242,
+  "PublishDate": "2024-09-02T21:42:44.4185321Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.85,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.9221396,
+        "_OcclusionStrength": 1.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    },
+    {
+      "Textures": {
+        "_MainTex": "_MainTex1.png",
+        "_OcclusionMap": "_OcclusionMap1.png",
+        "_SpecGlossMap": "_SpecGlossMap1.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.85,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.0,
+        "_OcclusionStrength": 1.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    }
+  ]
+}

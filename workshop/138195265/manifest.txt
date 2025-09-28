@@ -1,0 +1,36 @@
+{
+  "Version": 3,
+  "ItemType": "Bandana Mask",
+  "AuthorId": 76561198060064886,
+  "PublishDate": "2018-05-09T18:38:04.3270507Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.738,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 1.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 0.742647052,
+          "g": 0.742647052,
+          "b": 0.762460053
+        },
+        "_SpecColor": {
+          "r": 0.199999928,
+          "g": 0.199999928,
+          "b": 0.199999928
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    }
+  ]
+}

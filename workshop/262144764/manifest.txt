@@ -1,0 +1,128 @@
+{
+  "Version": 3,
+  "ItemType": "Assault Rifle",
+  "AuthorId": 76561198198366593,
+  "PublishDate": "2021-10-07T00:12:01.7651127Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 0.5
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    },
+    {
+      "Textures": {
+        "_MainTex": "_MainTex1.png",
+        "_OcclusionMap": "_OcclusionMap1.png",
+        "_SpecGlossMap": "_SpecGlossMap1.png",
+        "_BumpMap": "_BumpMap1.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 1.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    },
+    {
+      "Textures": {
+        "_MainTex": "_MainTex2.png",
+        "_OcclusionMap": "_OcclusionMap2.png",
+        "_SpecGlossMap": "_SpecGlossMap2.png",
+        "_BumpMap": "_BumpMap2.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 0.7
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    },
+    {
+      "Textures": {
+        "_MainTex": "_MainTex3.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.66452384,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.0,
+        "_OcclusionStrength": 1.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        }
+      }
+    }
+  ]
+}

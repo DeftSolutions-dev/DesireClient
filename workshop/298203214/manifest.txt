@@ -1,0 +1,33 @@
+{
+  "Version": 3,
+  "ItemType": "Pick Axe",
+  "AuthorId": 76561198020165295,
+  "PublishDate": "2023-05-28T22:01:12.3014129Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.4936837,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.02069628,
+        "_OcclusionStrength": 1.30815768
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    }
+  ]
+}

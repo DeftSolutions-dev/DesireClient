@@ -1,0 +1,59 @@
+{
+  "Version": 3,
+  "ItemType": "Crossbow",
+  "AuthorId": 76561198216632595,
+  "PublishDate": "2023-01-16T08:02:11.1038469Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "none",
+        "_SpecGlossMap": "_SpecGlossMap0.png",
+        "_MicrofiberFuzzMask": "none",
+        "_DetailAlbedoMap": "_DetailAlbedoMap0.png",
+        "_DetailMask": "none",
+        "_DetailNormalMap": "none"
+      },
+      "Floats": {
+        "_Cutoff": 0.198780358,
+        "_BumpScale": 0.0,
+        "_Glossiness": 0.0,
+        "_OcclusionStrength": 0.0,
+        "_MicrofiberFuzzIntensity": 0.0,
+        "_MicrofiberFuzzScatter": 0.0,
+        "_MicrofiberFuzzOcclusion": 0.0,
+        "_DetailNormalMapScale": 0.0,
+        "_DetailOcclusionStrength": 0.0,
+        "_DetailOverlaySmoothness": 0.0,
+        "_DetailOverlaySpecular": 0.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "_EmissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "_MicrofiberFuzzColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0
+        },
+        "_DetailColor": {
+          "r": 0.5882905,
+          "g": 0.5978258,
+          "b": 0.6618336
+        }
+      }
+    }
+  ]
+}
