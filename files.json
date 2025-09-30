@@ -1,6 +1,4 @@
 {
-    ".\\md5Hash.py": "db2053b05e3772614787168eab8f066d",
-    ".\\README.md": "c3d619004fd6af64a2375ef4d66af1c2",
     ".\\steam_api64.dll": "b4f9ba0d40c0200e52244be6b249e289",
     ".\\steam_appid.txt": "6ea2ef7311b482724a9b7b0bc0dd85c6",
     ".\\RustClient_Data\\app.info": "35b15379b0969790ae55ec3ae23ac0e1",
@@ -1484,4 +1482,5 @@
     ".\\cfg\\client.cfg": "1ece206cf1f6684983c6695eaea76d50",
     ".\\cfg\\keys.cfg": "63f89159da820125e385a0034cd78057",
     ".\\cfg\\keys_default.cfg": "92879a818f17da6d110a60d70babbee9"
+
 }
