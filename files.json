@@ -1,4 +1,5 @@
 {
+    ".\\RustClient.exe": "d3e0a5105f22e957f5ad1fa6dd455bee",
     ".\\steam_api64.dll": "b4f9ba0d40c0200e52244be6b249e289",
     ".\\steam_appid.txt": "6ea2ef7311b482724a9b7b0bc0dd85c6",
     ".\\RustClient_Data\\app.info": "35b15379b0969790ae55ec3ae23ac0e1",
@@ -1484,3 +1485,4 @@
     ".\\cfg\\keys_default.cfg": "92879a818f17da6d110a60d70babbee9"
 
 }
+
