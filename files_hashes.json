@@ -1,8 +1,4 @@
 {
-    ".\\files.json": "f22465feaea99573e16d375d9dcc6efd",
-    ".\\files_hashes.json": "e5f1a97641127480040b7a3b1f11e11e",
-    ".\\md5Hash.py": "db2053b05e3772614787168eab8f066d",
-    ".\\README.md": "c3d619004fd6af64a2375ef4d66af1c2",
     ".\\RustClient.exe": "8fa5e43793bb1aae91c0088c3e783d4d",
     ".\\steam_api64.dll": "b4f9ba0d40c0200e52244be6b249e289",
     ".\\steam_appid.txt": "6ea2ef7311b482724a9b7b0bc0dd85c6",
