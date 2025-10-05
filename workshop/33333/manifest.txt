@@ -1,0 +1,27 @@
+{
+  "Version": 3,
+  "ItemType": "Pump Shotgun",
+  "AuthorId": "76561198046358287",
+  "PublishDate": "2017-07-30T04:46:55.9795878Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "1.png",
+        "_OcclusionMap": "4.png",
+        "_SpecGlossMap": "3.png",
+        "_BumpMap": "2.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.0332408,
+        "_OcclusionStrength": 1.0
+      },
+      "Colors": {
+        "_Color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+        "_SpecColor": { "r": 1.0, "g": 1.0, "b": 1.0 },
+        "_EmissionColor": { "r": 0.0, "g": 0.0, "b": 0.0 }
+      }
+    }
+  ]
+}
