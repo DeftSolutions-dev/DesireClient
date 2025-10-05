@@ -1,0 +1,33 @@
+{
+  "Version": 3,
+  "ItemType": "Wood Storage Box",
+  "AuthorId": 76561198020165295,
+  "PublishDate": "2021-02-14T00:35:06.0840345Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 1.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.5721709,
+        "_OcclusionStrength": 1.27210832
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    }
+  ]
+}

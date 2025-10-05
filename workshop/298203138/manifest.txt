@@ -1,0 +1,33 @@
+{
+  "Version": 3,
+  "ItemType": "Hatchet",
+  "AuthorId": 76561198020165295,
+  "PublishDate": "2023-05-28T21:58:26.6930672Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.495766759,
+        "_BumpScale": 1.0,
+        "_Glossiness": 0.9915335,
+        "_OcclusionStrength": 1.10818458
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    }
+  ]
+}

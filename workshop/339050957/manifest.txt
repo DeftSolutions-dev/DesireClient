@@ -1,0 +1,43 @@
+{
+  "Groups": [
+    {
+      "Colors": {
+        "_Color": {
+          "b": 1.0,
+          "r": 1.0,
+          "g": 1.0
+        },
+        "_SpecColor": {
+          "b": 1.0,
+          "r": 1.0,
+          "g": 1.0
+        },
+        "_EmissionColor": {
+          "b": 0.0,
+          "r": 0.0,
+          "g": 0.0
+        },
+        "_MicrofiberFuzzColor": {
+          "b": 1.0,
+          "r": 1.0,
+          "g": 1.0
+        }
+      },
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 0.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.0,
+        "_OcclusionStrength": 1.0
+      }
+    }
+  ],
+  "Version": 3,
+  "ItemType": "Boots",
+  "AuthorId": 76561198030926242,
+  "PublishDate": "2024-12-23T22:04:30.1854486Z"
+}

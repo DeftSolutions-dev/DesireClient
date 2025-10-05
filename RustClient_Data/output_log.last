@@ -1,0 +1,173 @@
+Initialize engine version: 5.4.0p1 (e61faee5ea97)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4043 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.dll (this message is harmless)
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.Other.dll (this message is harmless)
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\ConvexHull.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\ConvexHull.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.CJK.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.CJK.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.MidEast.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.MidEast.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.Other.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.Other.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.Rare.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.Rare.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.West.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\I18N.West.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Ionic.Zip.Reduced.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\LZ4n.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\LZ4n.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Behave.Unity.Assets.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Behave.Unity.Assets.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Behave.Unity.Runtime.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Behave.Unity.Runtime.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\protobuf-net.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\protobuf-net.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\RustBuild.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\RustBuild.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\EasyAntiCheat.Client.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\EasyAntiCheat.Client.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\EasyAntiCheat.Server.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\EasyAntiCheat.Server.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Console.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Console.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.GoogleSheets.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.GoogleSheets.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Input.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Input.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Network.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Network.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Raknet.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Raknet.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Rcon.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.Rcon.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.SQLite.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.SQLite.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.System.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.System.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.UnityEngine.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Facepunch.UnityEngine.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Rust.Data.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Rust.Data.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Rust.UI.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Rust.UI.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Rust.Xp.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Rust.Xp.dll into Unity Child Domain
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\websocket-sharp.dll into Unity Child Domain
+- Completed reload, in  0.076 seconds
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on LeanTween
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 0.826560 ms
+System
+	Name: ALAMO
+	OS:   Windows 10  (10.0.0) 64bit
+
+CPU
+	Model:  Intel(R) Core(TM) i5-4460 CPU @ 3.20GHz
+	Cores:  4
+	Memory: 16327 MB
+
+GPU
+	Model:  NVIDIA GeForce GTX 970
+	API:    Direct3D 11.0 [level 11.0]
+	Memory: 4043 MB
+	SM:     50
+
+Memory
+	Private:     141 MB
+	Working Set: 98 MB
+
+Mono
+	Collects: 3
+	Memory:   0 MB
+
+
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\Mono.Security.dll (this message is harmless)
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\System.Runtime.Serialization.dll (this message is harmless)
+Platform assembly: L:\Rust\Clients\Rust133x64\RustClient_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Command Line: "L:\Rust\Clients\Rust133x64\RustClient.exe" 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+SteamID: 76561198318256951
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Steam Name: Lomarine
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Config Loaded
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Loading Items Took: 0.13 seconds
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Building Items Took: 0.148 seconds / Items: 278 / Blueprints: 196
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Inventory Updated: 40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 70)
+UnloadTime: 4.076160 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4626.
+Total: 3.952960 ms (FindLiveObjects: 0.153920 ms CreateObjectMapping: 0.242560 ms MarkObjects: 3.535680 ms  DeleteObjects: 0.018880 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 70)
+UnloadTime: 1.481600 ms
+[REVZ] Enabled reverse depth: Main Camera
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 18631.
+Total: 14.969920 ms (FindLiveObjects: 0.965440 ms CreateObjectMapping: 0.522240 ms MarkObjects: 13.420481 ms  DeleteObjects: 0.061120 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 19a0 -> priority: 1 

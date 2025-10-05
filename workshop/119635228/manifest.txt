@@ -1,0 +1,34 @@
+{
+  "Version": 3,
+  "ItemType": "Large Wood Box",
+  "AuthorId": 76561198020165295,
+  "PublishDate": "2017-11-09T22:16:08.4205838Z",
+  "Groups": [
+    {
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png",
+        "_EmissionMap": "_EmissionMap0.png"
+      },
+      "Floats": {
+        "_Cutoff": 1.0,
+        "_BumpScale": 0.983335555,
+        "_Glossiness": 0.4888237,
+        "_OcclusionStrength": 2.0
+      },
+      "Colors": {
+        "_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "_SpecColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        }
+      }
+    }
+  ]
+}
