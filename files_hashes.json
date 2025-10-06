@@ -1,6 +1,5 @@
 {
     ".\\RustClient.dll": "ceed98df81c4a3e4d206789920036874",
-    ".\\RustClient.exe": "b28861ad17cc5755369413dccc62cbad",
     ".\\steam_api64.dll": "b4f9ba0d40c0200e52244be6b249e289",
     ".\\steam_appid.txt": "6ea2ef7311b482724a9b7b0bc0dd85c6",
     ".\\RustClient_Data\\app.info": "35b15379b0969790ae55ec3ae23ac0e1",
@@ -416,9 +415,9 @@
     ".\\workshop\\293244810\\_OcclusionMap0.png": "cf8b900921e6ed2d9a72cf6624d9df82",
     ".\\workshop\\293244810\\_SpecGlossMap0.png": "829c127935a29469dd9c1bb507f2fd3b",
     ".\\workshop\\296368351\\icon.png": "d180e8347766ef0916cbda280593c622",
-    ".\\workshop\\296368351\\manifest.txt": "c3f65a85cb117f8e389b217ad32d25fb",
+    ".\\workshop\\296368351\\manifest.txt": "449249d91809eae2ed9a8bc2cd00ce04",
     ".\\workshop\\296368354\\icon.png": "c7138b1a2687a2a394e6f85ee2943fb3",
-    ".\\workshop\\296368354\\manifest.txt": "c3f65a85cb117f8e389b217ad32d25fb",
+    ".\\workshop\\296368354\\manifest.txt": "449249d91809eae2ed9a8bc2cd00ce04",
     ".\\workshop\\297603799\\icon.png": "e61b30a0955643908131de6172d8d681",
     ".\\workshop\\297603799\\icon_background.png": "ee12e73232f0ea04526121c83982ec14",
     ".\\workshop\\297603799\\manifest.txt": "a6929b85a7c8109e9daaa1bbb50b9b24",
